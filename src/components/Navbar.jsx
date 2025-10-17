@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className=" sticky top-0 z-50 bg-gray-900/95 backdrop-blur-2xl border-b border-gray-800 shadow-[0_0_60px_-15px_rgba(96,165,250,0.3)] ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex min-h-[4rem] md:min-h-[5rem] items-center justify-between flex-wrap gap-y-3 gap-x-4 py-2">
-            {/* logo */}
+            {/* LOGO */}
             <div
               className="dynamic-gradient relative overflow-hidden rounded-2xl p-1 hover:scale-105 transition-transform duration-300 order-1 md:order-none"
               onMouseEnter={() => setIsHovered(true)}
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </h1>
               </div>
             </div>
-            {/* searchBar */}
+            {/* SEARCH BAR */}
           </div>
         </div>
       </nav>
